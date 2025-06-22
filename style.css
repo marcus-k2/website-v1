@@ -201,3 +201,25 @@ footer a {
   color: #00aaff;
   text-decoration: none;
 }
+.category-strip {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 30px 20px;
+  background: #121823;
+  border-top: 1px solid #1e1e1e;
+  border-bottom: 1px solid #1e1e1e;
+}
+
+.category-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  font-size: 0.9rem;
+}
+
+.category-item img {
+  width: 36px;
+  margin-bottom: 8px;
+}
