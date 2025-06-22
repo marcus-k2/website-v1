@@ -107,7 +107,7 @@ nav a:hover {
 .product-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 25px;
+  gap: 15px;
   padding: 40px;
 }
 
