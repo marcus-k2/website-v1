@@ -106,13 +106,12 @@ nav a:hover {
 /* Product Grid */
 .product-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)): center;
   gap: 15px;
   padding: 10px;
 }
 
 .product-card {
-  .center{
   background: #1a1d26;
   border-radius: 16px;
   overflow: hidden;
@@ -120,7 +119,6 @@ nav a:hover {
   text-align: center;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
   transition: transform 0.2s;
-  }
 }
 
 .product-card:hover {
