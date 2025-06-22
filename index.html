@@ -1,44 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Radical Design - 3D Printed Products</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Radical Design | Custom 3D Prints</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <img src="assets/logo.png" alt="Radical Design Logo" class="logo" />
-    <nav>
-      <a href="#">All Products</a>
-      <a href="#">Accessories</a>
-      <a href="#">Home Decor</a>
-      <a href="#">Custom Orders</a>
-    </nav>
+    <div class="navbar">
+      <a href="index.html"><img src="assets/logo.png" class="logo" alt="Radical Design"></a>
+      <nav>
+        <a href="fidget-toys.html">Fidget Toys</a>
+        <a href="organisation.html">Organisation</a>
+        <a href="accessories.html">Accessories</a>
+        <a href="figurines.html">Figurines</a>
+        <a href="misc.html">Miscellaneous</a>
+        <a href="custom.html">Custom Orders</a>
+      </nav>
+    </div>
   </header>
 
   <section class="hero">
     <h1>CUSTOM 3D PRINTS</h1>
     <p>You dream it. We print it.</p>
-    <a href="#products" class="cta">Explore Products</a>
+    <a href="#bestsellers" class="cta">Explore Bestsellers</a>
   </section>
 
-  <section id="products" class="product-grid">
-    <!-- Sample Product -->
+  <section class="badges">
+    <div>🛠️ Handcrafted Quality</div>
+    <div>💬 Custom Design Requests</div>
+    <div>📦 Local Delivery Available</div>
+    <div>💵 Pay on Delivery</div>
+  </section>
+
+  <section class="section-title" id="bestsellers">
+    <h2>Bestselling Products</h2>
+  </section>
+
+  <section class="product-grid">
     <div class="product-card">
-      <img src="assets/keychain.png" alt="Spinning Cones">
-      <h3>Custom Keychain</h3>
-      <p>Price: ₹80</p>
-      <p>Delivery: 2–4 days</p>
-      <button onclick="addToCart('Spinning Cones')">Add to Cart</button>
-      <button onclick="buyNow('Spinning Cones')">Buy Now</button>
+      <img src="assets/Infinity Cube.png" alt="Infinity Cube">
+      <h3>Infinity Cube</h3>
+      <p>₹150 | 2–3 days</p>
+      <div class="product-actions">
+        <button>Add to Cart</button>
+        <button>Buy Now</button>
+        <span class="wishlist">♡</span>
+      </div>
     </div>
-    <!-- Add more products here -->
+    <div class="product-card">
+      <img src="assets/Bendy Dragons.png" alt="Bendy Dragons">
+      <h3>Bendy Dragons</h3>
+      <p>₹220 | 2–4 days</p>
+      <div class="product-actions">
+        <button>Add to Cart</button>
+        <button>Buy Now</button>
+        <span class="wishlist">♡</span>
+      </div>
+    </div>
+    <div class="product-card">
+      <img src="assets/Butterfly Knife.png" alt="Butterfly Knife">
+      <h3>Butterfly Knife</h3>
+      <p>₹140 | 1–2 days</p>
+      <div class="product-actions">
+        <button>Add to Cart</button>
+        <button>Buy Now</button>
+        <span class="wishlist">♡</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="category-preview">
+    <div><a href="fidget-toys.html">Fidget Toys</a></div>
+    <div><a href="organisation.html">Organisation</a></div>
+    <div><a href="accessories.html">Accessories</a></div>
+    <div><a href="figurines.html">Figurines</a></div>
+    <div><a href="misc.html">Miscellaneous</a></div>
+    <div><a href="custom.html">Custom Orders</a></div>
   </section>
 
   <footer>
     <p>&copy; 2025 Radical Design. All rights reserved.</p>
-    <a href="#">Submit a Custom Design</a>
+    <a href="custom.html">Submit a Custom Design</a>
   </footer>
 
   <script src="script.js"></script>
