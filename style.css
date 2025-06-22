@@ -108,14 +108,14 @@ nav a:hover {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 15px;
-  padding: 40px;
+  padding: 20px;
 }
 
 .product-card {
   background: #1a1d26;
   border-radius: 16px;
   overflow: hidden;
-  padding: 20px;
+  padding: 10px;
   text-align: center;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
   transition: transform 0.2s;
