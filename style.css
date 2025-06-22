@@ -216,6 +216,7 @@ footer a {
   background: #000000;
   border-top: 1px solid #000000;
   border-bottom: 1px solid #000000;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
 }
 
 .category-item {
