@@ -75,6 +75,14 @@ nav a:hover {
 .cta:hover {
   background: #005fcc;
 }
+body {
+  background-color: #000;
+  background-image: radial-gradient(circle at 20% 20%, #0070f320 0%, transparent 50%),
+                    radial-gradient(circle at 80% 30%, #0070f310 0%, transparent 50%),
+                    radial-gradient(circle at 50% 80%, #0070f315 0%, transparent 50%);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 /* Badges */
 .badges {
@@ -232,11 +240,4 @@ footer a {
   height: 70px;
   margin-bottom: 4px;
 }
-body {
-  background-color: #000;
-  background-image: radial-gradient(circle at 20% 20%, #0070f320 0%, transparent 50%),
-                    radial-gradient(circle at 80% 30%, #0070f310 0%, transparent 50%),
-                    radial-gradient(circle at 50% 80%, #0070f315 0%, transparent 50%);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+
