@@ -37,14 +37,13 @@ nav a:hover {
 
 /* Hero Section */
 .hero {
-  background: linear-gradient(to right, #0b0f1a, #121e3c);
+  background-color: #000; /* fallback */
+  background-image: url('assets/Mesh 1.png'), linear-gradient(to right, #0b0f1a, #121e3c);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   text-align: center;
   padding: 100px 20px 60px;
-  body {
-  background-image: img id="home" src="Mesh 1";
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 }
 
 .hero h1 {
@@ -211,9 +210,10 @@ footer a {
   justify-content: center;
   gap: 40px;
   padding: 30px 30px;
-  background: #000000;
-  border-top: 1px solid #000000;
-  border-bottom: 1px solid #000000;
+ background: #000000;
+border-top: 1px solid #000000;
+border-bottom: 1px solid #000000;
+color: #fff;
   grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
 }
 
@@ -230,4 +230,3 @@ footer a {
   height: 70px;
   margin-bottom: 4px;
 }
-
