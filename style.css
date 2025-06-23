@@ -43,7 +43,7 @@ nav a:hover {
   body {
   background-image: radial-gradient(circle at 20% 20%, #0070f320 0%),
                     radial-gradient(circle at 80% 30%, #0070f310 0%),
-                    radial-gradient(circle at 50% 80%, #0070f315 0%;
+                    radial-gradient(circle at 50% 80%, #0070f315 0%);
   background-repeat: no-repeat;
   background-size: cover;
 }
