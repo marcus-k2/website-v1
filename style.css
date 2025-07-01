@@ -295,3 +295,10 @@ color: #fff;
 .wishlist:hover {
   color: #ff4081;
 }
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 30px 40px;
+  justify-items: center;
+}
