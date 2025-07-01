@@ -14,3 +14,20 @@ function buyNow(productName) {
 
   // TODO: Integrate EmailJS or other backend call here to send the order info to you
 }
+function addToCart(name, price) {
+  const cart = JSON.parse(localStorage.getItem('cart')) || [];
+  cart.push({ name, price, quantity: 1 });
+  localStorage.setItem('cart', JSON.stringify(cart));
+  alert(`"${name}" added to cart.`);
+}
+
+function addToWishlist(name) {
+  const wishlist = JSON.parse(localStorage.getItem('wishlist')) || [];
+  if (!wishlist.includes(name)) {
+    wishlist.push(name);
+    localStorage.setItem('wishlist', JSON.stringify(wishlist));
+    alert(`"${name}" added to your wishlist.`);
+  } else {
+    alert(`"${name}" is already in your wishlist.`);
+  }
+}
