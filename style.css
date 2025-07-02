@@ -169,6 +169,17 @@ nav a:hover {
   color: #ff4081;
 }
 
+.animate-on-scroll {
+  opacity: 0;
+  transform: translateX(100px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.animate-on-scroll.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
 /* Category Preview */
 .category-preview {
   display: flex;
@@ -294,14 +305,4 @@ color: #fff;
   color: #aaa;
 }
 
-.animate-on-scroll {
-  opacity: 0;
-  transform: translateX(100px);
-  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
-}
-
-.animate-on-scroll.visible {
-  opacity: 1;
-  transform: translateX(0);
-}
 
