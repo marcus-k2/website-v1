@@ -198,3 +198,11 @@ footer a {
   color: #00aaff;
   text-decoration: none;
 }
+
+footer {
+  margin-top: 60px; /* Adjust this value as needed */
+  text-align: center;
+  padding: 40px 20px;
+  background: #111;
+  color: #aaa;
+}
