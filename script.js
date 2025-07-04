@@ -31,17 +31,3 @@ function addToWishlist(name) {
     alert(`"${name}" is already in your wishlist.`);
   }
 }
-<script>
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('visible');
-        observer.unobserve(entry.target); // Only animate once
-      }
-    });
-  });
-
-  document.querySelectorAll('.animate-on-scroll').forEach(section => {
-    observer.observe(section);
-  });
-</script>
