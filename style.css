@@ -167,13 +167,12 @@ nav a:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 16px;
+  gap: 40px;
   padding: 30px 20px;
   background: #0f111a;
 }
 
 .category-preview a {
-  margin-top: 60px;
   background: #141722;
   padding: 12px 24px;
   color: #f2f2f2;
