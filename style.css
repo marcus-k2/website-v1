@@ -170,6 +170,7 @@ nav a:hover {
   gap: 40px;
   padding: 30px 20px;
   background: #0f111a;
+  margin-top: 40px;
 }
 
 .category-preview a {
